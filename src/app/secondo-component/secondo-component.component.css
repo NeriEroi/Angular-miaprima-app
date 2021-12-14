@@ -1,0 +1,12 @@
+.secondo-comp  {
+    background-color: crimson;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+.secondo-comp h1 {
+    display: flex;
+    justify-content: center;
+    background-color: crimson;
+}
+

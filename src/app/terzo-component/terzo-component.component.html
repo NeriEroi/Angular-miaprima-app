@@ -1,0 +1,29 @@
+<div class="terzo-comp">
+    <h1>
+        Terzo component
+    </h1>
+    <h1>
+        Binding attivo nell'input sottostante:
+    </h1>
+    <div class="input_container">
+        <label>Nome:</label>
+        <input type="text" (keydown.enter)="addNome()" [(ngModel)]="nome">
+        <button (click)="addNome()">Invia nome</button>
+    </div>
+    <div class="name_cont">
+        <p>
+          Il nome inserito nell'input soprastante è: {{ nome }}
+        </p>
+        
+    </div>
+    <div class="ul_cont">
+        <ul>
+            <h1>
+                Personaggi ottenuti per mezzo di un ciclo for:
+            </h1>
+            <li *ngFor="let Demons of characters">
+                {{ Demons }}
+            </li>
+        </ul>
+    </div>
+</div>

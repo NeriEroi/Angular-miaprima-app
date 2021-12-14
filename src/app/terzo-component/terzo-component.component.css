@@ -1,0 +1,67 @@
+.terzo-comp {
+    background-color: rgb(54, 182, 15);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+.terzo-comp h1:nth-child(1) {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.terzo-comp h1:nth-child(2) {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.terzo-comp .input_container {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.terzo-comp .input_container label {
+    font-size: 20px;
+    margin-right: 10px;
+    align-self: center;
+}
+
+.terzo-comp .input_container input {
+    padding: 20px;
+}
+
+.terzo-comp .input_container button {
+    margin-left: 13px;
+    font-size: 22px;
+    color: green;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.836);
+    border: 3px solid crimson;
+}
+
+.terzo-comp .name_cont {
+   display: flex;
+   justify-content: center;
+}
+
+.terzo-comp .name_cont p {
+    font-size: 20px;
+    padding:10px;
+}
+
+.ul_cont {
+    padding-top: 50px;
+}
+
+.ul_cont ul h1 {
+    padding-bottom: 23px;
+}
+
+ul li {
+    font-size: 23px;
+    text-align: center;
+    padding-bottom: 10px;
+}

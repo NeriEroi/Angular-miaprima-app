@@ -1,0 +1,11 @@
+.container .row .title_cont {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: chartreuse;
+}
+
+.container .row .title_cont h1 {
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
