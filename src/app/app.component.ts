@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Primo component';
+  secondTitle: string = '';
+  
+  constructor() {
+    setTimeout(()=> {
+      this.secondTitle = 'Sottotitolo';
+    }, 2000);
+  }
+
 }
