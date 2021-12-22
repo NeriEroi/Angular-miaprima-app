@@ -6,4 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./secondo-component.component.css']
 })
 export class SecondoComponent {
+
+  parola: string = '';
+
+  showParola() {
+    this.parola = 'Secondo Sottotitolo';
+  }
 }
