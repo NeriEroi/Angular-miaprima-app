@@ -6,10 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./secondo-component.component.css']
 })
 export class SecondoComponent {
-
+  showMe:boolean=false;
   parola: string = '';
 
-  showParola() {
+  toggleParola() {
     this.parola = 'Secondo Sottotitolo';
+    this.showMe = !this.showMe;
   }
 }

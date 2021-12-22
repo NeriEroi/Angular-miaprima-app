@@ -11,7 +11,7 @@ export class AppComponent {
   
   constructor() {
     setTimeout(()=> {
-      this.secondTitle = 'Sottotitolo';
+      this.secondTitle = 'Primo Sottotitolo';
     }, 2000);
   }
 

@@ -13,9 +13,9 @@
         </ul>
     </div> -->
     <div class="cont">
-        <h1>
-            {{ parola }}
+        <h1 *ngIf="showMe">
+           {{ parola }} 
         </h1>
-        <button (click)="showParola()">Clicca</button>
+        <button (click)="toggleParola()">Cliccami, sono un toggle</button>
     </div>
 </div>
