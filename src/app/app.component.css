@@ -10,3 +10,22 @@
     color: blue;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+.route_cont {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: orangered;
+}
+
+.route_cont h1 {
+    margin-bottom: 21px;
+}
+
+.route_cont h1 a {
+    font-size: 31px;
+    font-family: monospace;
+    color: white;
+}
